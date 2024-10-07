@@ -1,4 +1,4 @@
-﻿namespace SecureApiTemplate.Models.Core
+﻿namespace SecureApiTemplate.Models
 {
     public class LogInfo
     {

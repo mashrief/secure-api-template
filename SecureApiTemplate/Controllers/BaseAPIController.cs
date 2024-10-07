@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SecureApiTemplate.Models.Core;
+using SecureApiTemplate.Models;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace SecureApiTemplate.Controllers

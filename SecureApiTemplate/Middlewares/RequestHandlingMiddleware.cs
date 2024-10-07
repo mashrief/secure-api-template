@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using SecureApiTemplate.Models.Core;
+using SecureApiTemplate.Models;
 using Serilog;
 using System.Diagnostics;
 using System.Text;

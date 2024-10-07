@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApiTemplate", "SecureApiTemplate.csproj", "{B8B1A5B6-F3B7-4CE6-9E70-AB106A7E9023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureApiTemplate", "SecureApiTemplate.csproj", "{B8B1A5B6-F3B7-4CE6-9E70-AB106A7E9023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "..\ServiceLayer\ServiceLayer.csproj", "{DE57BC7F-7A9C-4D85-87E1-DA09CD9139C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryLayer", "..\DataLayer\RepositoryLayer.csproj", "{0210685F-C3D9-4892-811B-C3B71D224F06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B8B1A5B6-F3B7-4CE6-9E70-AB106A7E9023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8B1A5B6-F3B7-4CE6-9E70-AB106A7E9023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8B1A5B6-F3B7-4CE6-9E70-AB106A7E9023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE57BC7F-7A9C-4D85-87E1-DA09CD9139C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE57BC7F-7A9C-4D85-87E1-DA09CD9139C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE57BC7F-7A9C-4D85-87E1-DA09CD9139C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE57BC7F-7A9C-4D85-87E1-DA09CD9139C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0210685F-C3D9-4892-811B-C3B71D224F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0210685F-C3D9-4892-811B-C3B71D224F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0210685F-C3D9-4892-811B-C3B71D224F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0210685F-C3D9-4892-811B-C3B71D224F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

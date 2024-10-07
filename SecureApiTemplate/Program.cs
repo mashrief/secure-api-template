@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.Data;
 using SecureApiTemplate;
 using SecureApiTemplate.Middlewares;
 using Serilog;
@@ -21,6 +23,7 @@ builder.Services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddDbContext<SecureDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.RegisterDependencyInjection();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

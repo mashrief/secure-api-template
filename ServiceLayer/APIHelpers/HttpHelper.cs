@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Text;
 
-namespace SecureApiTemplate.Utilities
+namespace ServiceLayer.APIHelpers
 {
     public static class HttpHelper
     {
